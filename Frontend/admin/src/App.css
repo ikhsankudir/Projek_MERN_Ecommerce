@@ -1,0 +1,38 @@
+:root{
+  --color-212529: #212529;
+  --color-ffd333: #ffd333;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-ed464d: #ced4da;
+}
+
+.green {
+  color: var(--color-47ad24);
+ font-size: 14px;
+ font-family: Rubik !important;
+}
+.red {
+  color: var(--color-212529);
+ font-size: 14px;
+ font-family: Rubik !important;
+}
+.quill {
+  background-color: white;
+}
+.form-control {
+  box-shadow: none;
+  border-color: var(--color-ed464d)
+}
+.title{
+  font: 28px;
+  font-family: Rubik !important;
+}
+.sub-title{
+  font: 24px;
+  font-family: Rubik !important;
+}
+.desc {
+  font: 14px;
+  font-family: Rubik !important;
+}
