@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <section className='home-wrapper-1 py-5'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-6'>
             <div className='main-banner position-relative '>
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
       </section>
       <section className='home-wrapper-2 py-5'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-12'>
               <div className='services d-flex align-items-center justify-content-between'>
@@ -127,7 +127,7 @@ const Home = () => {
         </div>
       </section>
       <section className='home-wrapper-2 py-5'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-12'>
               <div className='categories d-flex justify-content-between flex-wrap align-items-center'>
@@ -193,7 +193,7 @@ const Home = () => {
         </div>
       </section>
       <section className='featured-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Koleksi Kami</h3>
@@ -206,7 +206,7 @@ const Home = () => {
         </div>
       </section>
       <section className='famous-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-3'>
               <div className='famous-card position-relative'>
@@ -242,7 +242,7 @@ const Home = () => {
         </div>
       </section>
       <section className='special-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-12'>
               <h3 className='section-heading'>Spesial Produk</h3>
@@ -257,7 +257,7 @@ const Home = () => {
         </div>
       </section>
       <section className='popular-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Produk Populer</h3>
@@ -272,7 +272,7 @@ const Home = () => {
         </div>
       </section>
       <section className='marque-wrapper py-5'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
             <div className='col-12'>
               <div className='marquee-inner-wrapper'>
@@ -308,7 +308,7 @@ const Home = () => {
         </div>
       </section>      
       <section className='blog-wrapper py-5 home-wrapper-2'>
-        <div className='container-xxl'>
+        <div className='container-xl'>
           <div className='row'>
           <div className='col-12'>
             <h3 className='section-heading'>Blogs Terbaru</h3>

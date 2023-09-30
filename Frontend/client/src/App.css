@@ -89,6 +89,11 @@ body{
 .header-upper .header-upper-links p {
   font-size: 14px;
 }
+.header-upper .badge {
+  margin-top: 10px;
+  padding: 3px 4px;
+  font-size: 12px;
+}
 .header-bottom .menu-links a,
 .header-bottom{
   color: white;
@@ -122,6 +127,14 @@ footer a {
 }
 footer:not(:first-child) {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer  h2 {
+  font-size: 20px;
+}
+footer img{
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
 }
 footer .input-group .input-group-text{
   background-color: var(--color-232f3e);
@@ -258,6 +271,21 @@ footer .input-group .input-group-text{
   font-size: 13px;
   line-height: 22px;
   color: var(--color-777777);
+}
+.single-blog-card a{
+  text-decoration: none;
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+.single-blog-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
 }
 
 /* produk cart section */
@@ -471,4 +499,133 @@ footer .input-group .input-group-text{
   line-height: 35px;
   text-align: left;
   margin-top: 0;
+}
+.contact-inner-wrapper form .form-control {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+.contact-inner-wrapper ul {
+  list-style: none;
+}
+
+/* Bandingkan Product */
+.compare-product-card {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.compare-product-card .cross,
+.wishlist-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  padding: 3px;
+  cursor: pointer;
+}
+.compare-product-detail h5.title,
+.wishlist-card h5.title {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-details h6.price,
+.wishlist-card h6.price {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* auth card */
+.auth-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.auth-card p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.auth-card .form-control {
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.auth-card a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+  text-decoration: none;
+}
+.auth-card .signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.auth-card .signup:hover {
+  background-color: var(--color-131921);
+  color: var(--color-febd69);
+}
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* main product page */
+.description-wrapper h4,
+.reviews-wrapper h3{
+  font-size: 26px;
+  color: #1c1c1b;
+  margin-bottom: 10px;
+}
+.description-wrapper p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review-inner-wrapper{
+  background-color: white;
+  padding: 30px;
+}
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.review-head h4{
+font-size: 18px;
+color: var(--color-1c1c1b);
+}
+.review-head p,
+.review-head a{
+font-size: 14px;
+color: var(--color-777777);
+}
+.review-form h4 {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+.review-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
 }

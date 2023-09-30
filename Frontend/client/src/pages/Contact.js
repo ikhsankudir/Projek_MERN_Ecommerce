@@ -1,6 +1,8 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
+import { AiOutlineHome, AiOutlineMail} from 'react-icons/ai'
+import { BiPhoneCall, BiInfoCircle } from 'react-icons/bi'
 
 const Contact = () => {
   return (
@@ -45,6 +47,23 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className='contact-title mb-4'>Berikan Tanggapan Anda</h3>
+                  <div>
+                    <ul className='ps-0'>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                      <AiOutlineHome className='fs-5'/> 
+                      <address className='mb-0'>jasdinasfjasfasdfa s</address>
+                      </li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                      <BiPhoneCall className='fs-5'/>
+                      <a href='tel:+62 1234234234234'>+62 2134321423</a></li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                      <AiOutlineMail className='fs-5'/>
+                      <a href='mailto:ikhsankudir@gmail.com'>ikhsankudir@gmail.com</a></li>
+                      <li className='mb-3 d-flex gap-15 align-items-center'>
+                      <BiInfoCircle className='fs-5'/>
+                      <p className='mb-0'>Monday - friday 10 AM - 8 PM</p></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
