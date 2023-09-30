@@ -58,13 +58,24 @@ atur struktur folder yang bakal kita gunakan
 
     package ynag di pakai di sisi backend ini
     
+    {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "pada projek ini saya menggunakan system ubuntu dekstop 22.04, dengan spesifikasi  - Processor : Intel Core i7-4790  - Ram       : 16 Gb  - Ssd       : 50 Gb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server" : "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "chalk": "^3.0.0",
     "cloudinary": "^1.40.0",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
-    "esm": "^3.2.25",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.1",
@@ -77,3 +88,5 @@ atur struktur folder yang bakal kita gunakan
     "sharp": "^0.32.4",
     "slugify": "^1.6.6",
     "uniqid": "^5.4.0"
+  }
+}
