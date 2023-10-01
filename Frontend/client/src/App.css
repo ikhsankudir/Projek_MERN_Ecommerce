@@ -629,3 +629,11 @@ color: var(--color-777777);
   font-size: 14px;
   color: var(--color-777777);
 }
+.main-product-image{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}

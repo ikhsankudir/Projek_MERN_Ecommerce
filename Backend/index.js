@@ -17,12 +17,6 @@ const colorRouter = require("./routes/colorRoute")
 const enqRouter = require("./routes/enqRoute")
 const couponRouter = require("./routes/couponroute")
 
-
-
-
-
-
-
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan")
 const moment = require('moment-timezone');

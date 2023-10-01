@@ -3,6 +3,7 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
 import ReactStars from 'react-rating-stars-component'
+import PeactImageZoom from 'react-image-zoom'
 
 
 const SingleProduct = () => {
@@ -12,10 +13,12 @@ const SingleProduct = () => {
     <Meta title={'Nama Produk'} />
       <BreadCrumb title='Nama Produk' />
       <div className='main-product-wrapper py-5 home-wrapper-2'>
-        <div className='container-xl'>
+        <div className='container-xl p-3 bg-white'>
           <div className='row'>
             <div className='col-6'>
-              <div className='main-product-image'></div>
+              <div className='main-product-image'>
+                <div></div>
+              </div>
             </div>
             <div className='col-6'></div>
           </div>
