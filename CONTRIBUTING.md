@@ -21,7 +21,7 @@ Ada banyak cara Anda dapat berkontribusi pada proyek SaniTech, termasuk:
 
 ## Cara Memulai
 
-Sebelum Anda dapat berkontribusi ke proyek ini, kami meminta Anda untuk menghubungi kami terlebih dahulu melalui GitHub dengan pesan pribadi atau melalui kontak yang tersedia di bawah ini. Kami akan memberikan akses ke repositori privat ini setelah konfirmasi.
+Sebelum Anda dapat berkontribusi ke proyek ini, kami meminta Anda untuk menghubungi kami terlebih dahulu melalui GitHub dengan pesan pribadi atau melalui kontak yang tersedia di bawah ini. Kami akan memberikan akses ke repositori  ini setelah konfirmasi.
 
 
 Terima kasih atas kontribusi Anda yang berpotensi membantu SaniTech menjadi lebih baik! Kami sangat menghargai kontribusi Anda dalam membangun proyek ini.
